@@ -16,7 +16,9 @@ The project is currently divided into three phases:
 
 ->Function that leverages RAG (RetrievalQA chain) to match user query to a type of law. RAG is also used to determine which law in specific is broken from the law documents above.
 
-->TOP-K uncertainty measuring method prompt as per the paper[Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs](https://arxiv.org/abs/2306.13063) used to match user query to top 3 laws in the relevant document and then also determine level of uncertainty for each law. This uncertainty explains why the llm did not think the highest ranked law did not have an even higher confidence level. The way it is outputed means that the llm explains points of ambiguity in the situation. This ambiguity is used to ask the user questions or to ask another LLMChain (which has the knowledge of GPT-3.5-turbo) to give answers and reduce unceratinty in a feedback loop.
+->TOP-K uncertainty measuring method prompt as per the paper [Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs](https://arxiv.org/abs/2306.13063) used to match user query to top 3 laws in the relevant document and then also determine level of uncertainty for each law. 
+
+->This uncertainty explains why the llm did not think the highest ranked law did not have an even higher confidence level. The way it is outputed means that the llm explains points of ambiguity in the situation. This ambiguity is used to ask the user questions or to ask another LLMChain (which has the knowledge of GPT-3.5-turbo) to give answers and reduce unceratinty in a feedback loop.
 
 ->Functions that use LLMChains to classify the unceratinty explanations into "search type" and "user query type" as well as LLMChains that convert the uncertainty explanations into simple questions for the user.
 
