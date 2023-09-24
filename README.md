@@ -2,6 +2,8 @@
 
 In this [notebook](https://github.com/archit-lahiri/Law-Helper-Chatbot/blob/main/lawbot-v6.ipynb) I implement a project idea I had to make a Law-Helper Chatbot. The goal of this project is to provide step by step situation relevant guidance to common citizens to approach the legal system. For this I use the langchain library to leverage openai llms to create a chatbot. For this I also feed documents like the **Indian Penal Code** and **Consumer Protection Act** and information from the internet is also retrieved.
 
+Currently it is constrained to only work on cases of Consumer Law in India.
+
 The project is currently divided into three phases:
 
 **Initialization and set-up phase**:
