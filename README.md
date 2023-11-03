@@ -2,6 +2,9 @@
 
 UPDATE: The latest version of this chatbot (renamed to LegalLLM) has been uploaded to this repo in the [LegalLLM_Draft11 file](https://github.com/archit-lahiri/LegalLLM/blob/main/LegalLLM_Draft11). Here there is a drive link to two videos that demonstrate the working of the chatbot- part 1 and part 2. Part 1 is sufficient for understanding how it works.
 
+For ease of access Im putting the drive link here too:
+[Video demo link](https://drive.google.com/drive/folders/1snKjYIc-A3_tRRuCQSSFryiGWW3jBCsi?usp=drive_link)
+
 I am very proud of how it has turned out and hope you definitely check it out :) 
 
 I haven't uploaded the code yet but plan to in some time. It is different from the version 6 of the chatbot described below in it's internal analysis of law but still retains similar philosophy and working principles as verison 6. 
